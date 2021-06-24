@@ -1,0 +1,273 @@
+section {
+    width: 75%;
+    background-color: #eee;
+    margin: 15rem auto;
+    padding: 3rem;
+}
+
+* {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.part1 {
+    display: flex;
+    width: 100%;
+    background-color: #fff;
+}
+
+.part1 p,
+.part1 span {
+    font-size: 2rem;
+}
+
+.part1 .left {
+    flex: 1.1;
+    border-right: 1px solid rgba(0, 0, 0, 0.178);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.part1 * {
+    margin-bottom: 1rem;
+}
+
+.part1 .left span {
+    color: #009688;
+    font-size: 1.5rem;
+}
+
+.part1 .left p:last-child {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+.part1 .left .progress {
+    height: 1.5rem;
+    width: 75%;
+    background-image: linear-gradient(90deg, #009688 0%, #009688 70%, #ddd 70%, #ddd 100%);
+    border-radius: .5rem;
+}
+
+.part1 .left p:first-of-type {
+    color: #000;
+    font-weight: 700;
+}
+
+.part1 .left img {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    box-shadow: .5rem .5rem 2rem 0 #ddd, -.5rem -.5rem 2rem 0 #ddd;
+    margin-top: 2.5rem;
+}
+
+.part1 .right {
+    flex: 6;
+    padding: 2rem;
+    position: relative;
+}
+
+.part1 .right span {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+}
+
+.part1 .right h2 {
+    margin: auto auto 1.5rem auto;
+    color: black;
+    font-weight: 700;
+}
+
+.part1 .right p {
+    font-size: 1.5rem;
+    margin-right: 14rem;
+}
+
+.part1 .right span {
+    font-size: 1.5rem;
+}
+
+/* end of part 1 */
+
+/* start of part 2 */
+
+.part2 {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3.5rem;
+    padding: 2rem;
+}
+
+.part2 *:not(.part2 > span:first-child) {
+    font-size: 1.5rem;
+}
+
+.part2>span:first-child {
+    color: #fff;
+    font-weight: bold;
+    font-size: 2rem;
+    background-color: #607d8b;
+    width: 12%;
+    padding: 1rem 1rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.part2 .nm {
+    color: #009688;
+    font-weight: 700;
+}
+
+.part2 .txt {
+    color: rgb(199, 24, 24);
+    font-weight: 700;
+}
+
+.part2 p {
+    padding: 1rem;
+    padding-left: 0;
+}
+
+.part2 p:first-of-type {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.part2 p:nth-of-type(2) {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* end of part 2 */
+
+/* start of part 3 */
+
+.part3 {
+    display: flex;
+    background-color: #fff;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 1rem;
+    margin-top: 3.5rem;
+}
+
+.part3 img {
+    height: 100px;
+    width: 100px;
+    padding: .5rem;
+}
+
+.part3 p {
+    color: #fff;
+    font-weight: bold;
+    font-size: 2rem;
+    background-color: #607d8b;
+    width: 12%;
+    padding: 1rem 1rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-left: .8rem;
+}
+
+.part3 .imgs {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.part3 .imgs img:nth-child(5),
+.part3 .imgs img:nth-child(9),
+.part3 .imgs img:nth-child(14),
+.part3 .imgs img:nth-child(17),
+.part3 .imgs img:nth-child(12),
+.part3 .imgs img:nth-child(9) {
+    opacity: .3;
+}
+
+/* end of part 3 */
+
+/* start of part 4 */
+.part4 {
+    background-color: #fff;
+    padding: 2rem;
+    margin-top: 3.5rem;
+}
+
+.part4 p,
+.part5>p {
+    color: #fff;
+    font-weight: bold;
+    font-size: 2rem;
+    background-color: #607d8b;
+    width: 15%;
+    padding: 1rem 1rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-left: 1.5rem;
+}
+
+.part4>span {
+    font-size: 2rem;
+    margin-left: 1.5rem;
+}
+
+.part4>span>span {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.part4>span>span:first-child {
+    color: rgb(199, 24, 24);
+}
+
+.part4>span>span:last-child {
+    color: #006696;
+}
+
+/* end of part 4 */
+
+/* start of part 5 */
+.part5 {
+    background-color: #fff;
+    padding: 2rem;
+    margin-top: 3.5rem;
+}
+
+.part5 div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.1rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    ;
+}
+
+.part5 div:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.part5 div:first-child {
+    padding-top: 0;
+}
+
+.part5 p:not(.part5 > p) {
+    font-size: 2rem;
+}
+
+.yes,
+.no {
+    font-weight: 700;
+}
+
+.yes {
+    color: #016841;
+}
+
+.no {
+    color: rgb(192, 48, 48);
+}
